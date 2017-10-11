@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#70C4AF</color>
+    <color name="colorPrimaryDark">#5CA292</color>
+    <color name="colorAccent">#4E5D74</color>
+    <color name="colorTextPrimary">#353F50</color>
+    <color name="semiBlack">#aa111111</color>
+    <color name="semiWhite">#CCFFFFFF</color>
+    <color name="colorBarGraph">#77FFFFFF</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="lightGray">#eee</color>
+    <color name="default_back_stroke_color">#f0f0f0</color>
+    <color name="default_chart_value_color">#ff3d00</color>
+    <color name="default_back_color">@android:color/transparent</color>
+
+    <color name="blue4">#8AD5F0</color>
+    <color name="darkGrey">#888888</color>
+    <color name="blue14">#0099CC</color>
+    <color name="chart_value_1">#2d4302</color>
+    <color name="chart_value_2">#75a80d</color>
+    <color name="chart_value_3">#8fc026</color>
+    <color name="chart_value_4">#B5CC84</color>
+</resources>

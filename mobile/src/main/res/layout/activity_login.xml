@@ -1,0 +1,80 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginActivity"
+    android:background="@color/lightGray">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID:"
+        android:id="@+id/textView"
+        android:textSize="20dp"
+        android:layout_marginStart="79dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="188dp"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtId"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PASSWD"
+        android:id="@+id/textView2"
+        android:textIsSelectable="false"
+        android:textSize="20dp"
+        android:layout_alignBottom="@+id/edtPaswd"
+        android:layout_toStartOf="@+id/edtPaswd"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/edtPaswd"
+        android:layout_below="@+id/edtId"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="로그인"
+        android:id="@+id/btnLogin"
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/textView"
+        android:textColor="@color/colorWhite"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="가입"
+        android:id="@+id/button2"
+        android:layout_below="@+id/edtPaswd"
+        android:layout_alignEnd="@+id/edtPaswd" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/heart_icon_gray"
+        android:layout_above="@+id/edtId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="67dp" />
+</RelativeLayout>
